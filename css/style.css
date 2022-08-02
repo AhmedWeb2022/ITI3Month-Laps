@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+}
+/* Regesteration page*/
+.r-container {
+  width: 100%;
+  margin: 10px;
+}
+article {
+  width: 50%;
+  margin: auto;
+  background-color: #adcfdf;
+  padding: 20px;
+  border: 5px solid #4aa9;
+}
+div article h1 {
+  width: 100%;
+  padding: 0 10px;
+  color: #0569b9;
+}
+div article p {
+  width: 95%;
+  padding: 10px 10px;
+  background-color: #7db1db;
+  border: 1px dashed #0c538d;
+  margin: 10px;
+}
+div article form {
+  width: 100%;
+}
+div article form table {
+  table-layout: fixed;
+  width: 100%;
+}
+div article form table tr {
+  width: 100%;
+}
+div article form table tr td {
+  width: 70%;
+  height: 26px;
+}
+div article form table tr .lable {
+  width: 35%;
+  padding: 5px;
+  background-color: #98bcd9;
+  text-align: right;
+  font-size: 13px;
+  margin: 5px;
+}
+div article form table tr td .info {
+  width: 90%;
+  font-size: 12px;
+  margin-left: 25px;
+}
+div article form table tr td label span {
+  color: red;
+  margin-right: 5px;
+  margin: 5px 5%;
+}
+div article form table tr td input:focus {
+  outline: none;
+}
+div article form table tr td .name {
+  width: 70%;
+  height: 60%;
+  margin: 0 10px;
+  border: 1px solid #00bcd4;
+}
+div article form table tr td .mail {
+  width: 90%;
+  border: 1px solid #00bcd4;
+  margin: 0 10px;
+  height: 60%;
+}
+div article form table tr td .fsm {
+  width: 15%;
+  margin-left: 7%;
+  border: 1px solid #00bcd4;
+}
+div article form table tr td .ssm {
+  width: 10%;
+  border: 1px solid #00bcd4;
+}
+div article form table tr td .tsm {
+  width: 30%;
+  border: 1px solid #00bcd4;
+}
+div article form table tr td span {
+  margin: 5px;
+}
+div article form table tr td .mobile {
+  width: 70%;
+  height: 60%;
+  margin: 0 10px;
+  border: 1px solid #00bcd4;
+}
+div article form table tr td .add {
+  width: 80%;
+  height: 50px;
+  border: 1px solid #00bcd4;
+  margin: 0 10px;
+}
+div article form table tr td .country {
+  width: 80%;
+  height: 70%;
+  border: 1px solid #00bcd4;
+  text-align: center;
+  margin: 0 10px;
+}
+div article form table tr td .pass {
+  border: 1px solid #00bcd4;
+  width: 50%;
+  height: 70%;
+  margin: 0 10px;
+}
+article form .check {
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+article form .submit {
+  text-align: center;
+  margin: 20px 0;
+}
+article form .submit input {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #00bcd4;
+  color: #11227c;
+  cursor: pointer;
+}
+/* Road Map Style*/
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+}
+header .links {
+  flex: 1;
+}
+header .links ul {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  list-style: none;
+  align-items: center;
+}
+header .links ul li {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  line-height: 70px;
+}
+header .links ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 70px;
+}
+header #logo {
+  flex: 1;
+  flex: 1;
+  text-align: right;
+  height: 100%;
+}
+header #logo img {
+  height: 60px;
+  width: 200px;
+  margin: 5px;
+}
+/* Content style for road map page*/
+
+.content {
+  width: 100%;
+}
+.content h1 {
+  text-align: center;
+  margin: 50px;
+  color: #00bcd4;
+}
+.content p {
+  font-size: 18px;
+  margin: 10px;
+}
+.content p span {
+  color: red;
+}
+.content .info {
+  width: 90%;
+  margin: 20px;
+}
+.content .info h4 {
+  color: red;
+  margin: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.right {
+  flex: 1;
+  margin: 30px;
+}
+.right ul {
+  margin: 10px;
+}
+.left {
+  flex: 1;
+  margin: 30px;
+}
+.left ul {
+  margin: 10px;
+}
+.content .toTop {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+/* footer style*/
+footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 15px;
+}
+footer p {
+  text-align: center;
+  width: 100%;
+  margin-top: 35px;
+}
+/* Index page Style*/
+.main-logo {
+  width: 100%;
+  height: 570px;
+}
+.main-logo img {
+  width: 100%;
+  height: 100%;
+}
